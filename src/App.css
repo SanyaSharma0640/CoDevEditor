@@ -1,38 +1,225 @@
-.App {
+
+
+.sideImg img{
+  position: fixed;
+  width: 800px;
+  height: 700px;
+  margin-top: 20px;
+}
+.homePageWrapper {
+  margin-left: 800px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #282a36;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.homePageLogo {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.mainLabel {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.inputBox {
+  width: 100%;
+  border: none;
+  background-color: #F2F2F2;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #444444;
+  transition: all 0.3s ease;
+}
+
+.inputBox:focus {
+  outline: none;
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.btnJoin {
+  width: 50%;
+  border: none;
+  background-color: #444444;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+  font-weight: bold;
+
+}
+
+.btnJoin:hover {
+  background-color: #333333;
+}
+
+.btnNew {
+  color: whitesmoke;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: #282a36;
+}
+
+.createNewBtn:hover {
+  color: #333333;
+}
+
+.createInfo {
+  font-size: 14px;
+  color: #999999;
+  margin-top: 10px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+footer {
+  margin-top: 50px;
+  font-size: 14px;
+  color: #999999;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.leaveBtn {
+  background: #4aed88;
+  width: 100px;
+  margin-left: auto;
+}
+
+.leaveBtn:hover {
+  background: #2b824c;
+}
+
+.createInfo {
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.createNewBtn {
+  color: #4aed88;
+  text-decoration: none;
+  border-bottom: 1px solid #4aed88;
+  transition: all 0.3s ease-in-out;
+}
+
+footer a:hover {
+  color: #368654;
+  border-color: #368654;
+}
+
+.mainWrap {
+  display: grid;
+  grid-template-columns: 230px 1fr;
+}
+
+.aside {
+  background: #1c1e29;
+  padding: 16px;
+  color: #fff;
   display: flex;
   flex-direction: column;
+}
+.asideInner {
+  flex: 1;
+}
+
+.clientsList {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.client {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+.userName {
+  margin-top: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo {
+  position: relative;
+  border-bottom: 1px solid #424242;
+  padding-bottom: 10px;
 }
+
+.logoImage {
+  height: 60px;
+}
+
+.leaveBtn {
+  width: 100%;
+  margin-top: 20px;
+}
+.CodeMirror {
+  min-height: calc(100vh - 20px);
+  font-size: 20px;
+  line-height: 1.6;
+  padding-top: 20px;
+}
+
+select {
+  margin-bottom: 10px;
+  display: block;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.lang{
+  color: whitesmoke;
+  margin-left: 10px;
+}
+.theme{
+  color: whitesmoke;
+  margin-left: 10px;
+}
+
+
